@@ -1,6 +1,6 @@
 # Temperature Time Series Forecasting using Singular Spectrum Analysis (SSA)
 
-This study uses **Singular Spectrum Analysis (SSA)** for exploratory analysis and forecasting of time series univariate atmospheric temperature data. 
+This study uses Singular Spectrum Analysis (SSA) for exploratory analysis and forecasting of time series univariate atmospheric temperature data. 
 
 
 
@@ -73,6 +73,14 @@ The SSA's is non-parametric in nature. So, it's great for situations where we do
 - **Functions Used**: `eig`, `toeplitz`, `xcorr`, `xlsread`, `writematrix`, matrix algebra
 - **Visualization**: MATLAB's built-in `plot`, `subplot`
 - **File I/O**: Reads/writes Excel `.xlsx` files
+
+
+
+## File Structure:
+
+- ssa_forecast_analysis.m - Main SSA function (decomposition + forecast)
+- run_ssa.m - code to run the function
+- README.md - Project documentation
 
 
 
